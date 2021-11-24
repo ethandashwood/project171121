@@ -14,6 +14,8 @@ public class playerScript : MonoBehaviour
 
     public Transform cam;
 
+    public Transform safeSpace;
+
     void Start()
     {
         
@@ -37,4 +39,6 @@ public class playerScript : MonoBehaviour
             controller.Move(moveDir.normalized * speed * Time.deltaTime);
         }
     }
+
+
 }

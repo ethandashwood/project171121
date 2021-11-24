@@ -41,6 +41,8 @@ public class playerTracking : MonoBehaviour
         {
             Destroy(other.gameObject);
 
+
+
         }
 
 
